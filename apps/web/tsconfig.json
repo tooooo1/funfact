@@ -9,7 +9,7 @@
   },
   "include": [
     "next-env.d.ts",
-    "next.config.ts",
+    "next.config.mts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
