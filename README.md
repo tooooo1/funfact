@@ -1,2 +1,7 @@
-# funfact
-simple and enjoyable app that delivers random and personalized fun facts
+<center>
+
+# **Discover Fun Facts, Enjoy Every Moment!**
+
+<img src="./apps/web/public/funfact.webp" alt="FunFact Logo" />
+
+</center>
