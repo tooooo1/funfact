@@ -2,7 +2,7 @@
   "name": "@funfact/ui",
   "version": "0.0.0",
   "private": true,
-  "exports": "./src/index.tsx",
+  "exports": "./src/index.ts",
   "scripts": {
     "lint": "eslint . --max-warnings 0"
   },

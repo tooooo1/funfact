@@ -1,6 +1,7 @@
 "use client";
 
 import { use, useOptimistic, useRef, useState } from "react";
+import { Button } from "@funfact/ui";
 
 async function updateLikeOnServer() {
   return new Promise((resolve) => setTimeout(resolve, 500));
@@ -65,15 +66,13 @@ export const FunFact = () => {
     <form action={handleAction} ref={formRef}>
       <h2>Fun Fact</h2>
       <p>{fact}</p>
-      <button type="button" onClick={fetchNewFact}>
-        New Fact
-      </button>
-      <button name="action" value="like">
+      <Button onClick={fetchNewFact}>New Fact</Button>
+      <Button type="submit" name="action" value="like">
         Like
-      </button>
-      <button name="action" value="dislike">
+      </Button>
+      <Button type="submit" name="action" value="dislike">
         Dislike
-      </button>
+      </Button>
       <p>Likes: {optimisticLikes}</p>
       <p>Dislikes: {optimisticDislikes}</p>
     </form>
