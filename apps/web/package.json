@@ -23,7 +23,8 @@
     "@types/eslint": "^8.56.10",
     "@types/node": "^20.12.12",
     "@types/react": "npm:types-react@rc",
-    "@types/react-dom": "npm:types-react-dom@rc"
+    "@types/react-dom": "npm:types-react-dom@rc",
+    "tailwindcss": "^3.4.3"
   },
   "pnpm": {
     "overrides": {

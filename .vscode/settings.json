@@ -26,5 +26,5 @@
     "**/.vercel": true,
     "**/.next": true
   },
-  "cSpell.words": ["funfact"]
+  "cSpell.words": ["funfact", "tailwindcss"]
 }
